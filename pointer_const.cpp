@@ -40,6 +40,7 @@ int main() {
         p++;
     }
 
+    cout << "\nbubble result: " << endl;
     int len = sizeof(arr) / sizeof(arr[0]);
     // int * p4 = arr;
     bubble(arr, len);
