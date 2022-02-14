@@ -35,5 +35,16 @@ int main() {
     c1.m_r = 10;
     cout << "圆的周长：" << c1.calculate() << endl;
 
+    std::cout << "ok";
+
+    char a;
+    int num;
+
+    cout << "Enter a character and an integer: ";
+    cin >> a >> num;
+
+    cout << "Character: " << a << endl;
+    cout << "Number: " << num << endl;
+
     return 0;
 }

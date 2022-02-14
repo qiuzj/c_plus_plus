@@ -26,7 +26,7 @@ int main() {
 
     // 野指针
     int * p2 = (int *)0x1100;
-    cout << *p2 << endl;
+    // cout << *p2 << endl;
 
     return 0;
 }
