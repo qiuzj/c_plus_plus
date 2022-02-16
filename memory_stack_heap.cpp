@@ -11,7 +11,7 @@ int * func() {
 }
 
 void func2() {
-    int * p = new int(10);
+    int * p = new int(10); // 分配堆区数据
     cout << *p << endl;
     cout << *p << endl;
     delete p; // 释放堆区数据
